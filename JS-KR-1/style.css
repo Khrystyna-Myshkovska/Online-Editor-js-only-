@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.up-content {
+    width: 900px;
+    min-height: 250px;
+    margin: 0px auto;
+    padding: 30px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+p {
+    padding: 10px 0 10px 0;
+}
+
+.buttons {
+    width: 900px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+#edit-btn {
+    border: none;
+    cursor: pointer;
+    width: 65px;
+    height: 35px;
+    color: whitesmoke;
+    background: -webkit-linear-gradient(-45deg, rgba(241, 231, 103, 1) 0%, rgba(254, 182, 69, 1) 100%);
+    border-radius: 5px;
+}
+
+#style-btn {
+    border: none;
+    cursor: pointer;
+    width: 65px;
+    height: 35px;
+    color: whitesmoke;
+    background: -webkit-linear-gradient(left, rgba(179, 220, 237, 1) 0%, rgba(41, 184, 229, 1) 50%, rgba(188, 224, 238, 1) 100%);
+    border-radius: 5px;
+}
+
+.bottom-content {
+    width: 900px;
+    min-height: 250px;
+    margin: 30px auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.block-textarea {
+    text-align: center;
+    display: none;
+}
+
+#textarea {
+    border: none;
+    width: 80%;
+    height: 180px;
+    margin: 25px 0 10px 0;
+    text-align: start;
+    color: grey;
+    font-size: 15px;
+}
+
+#add-btn {
+    border: 0;
+    cursor: pointer;
+    width: 65px;
+    height: 35px;
+    color: whitesmoke;
+    border-radius: 5px;
+    background: linear-gradient(to right, rgba(169, 3, 41, 1) 0%, rgba(143, 2, 34, 1) 44%, rgba(109, 0, 25, 1) 100%);
+}
+
+#save-btn {
+    border: 0;
+    cursor: pointer;
+    width: 65px;
+    height: 35px;
+    color: whitesmoke;
+    border-radius: 5px;
+    background: linear-gradient(to right, rgba(98, 125, 77, 1) 0%, rgba(31, 59, 8, 1) 100%);
+}
+
+.buttons-edit-bottom {
+    text-align: start;
+    margin-left: 90px;
+    padding-bottom: 10px;
+}
+
+.block-style {
+    width: 900px;
+    min-height: 250px;
+    margin: 30px auto;
+    display: flex;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 15px;
+    display: none;
+}
+.edit-radio{
+    margin-right: 20px;
+    font-size: 16px;
+}
+h4{
+    margin: 12px 0;
+}
+.select-fml{
+    width: 240px;
+    height: 35px;
+}
+#btn-color-text , #btn-background-color{
+    border: none;
+    cursor: pointer;
+    width: 110px;
+    height: 35px;
+    color: whitesmoke;
+    border-radius: 5px;
+    background:linear-gradient(to right top, #b7c5da, #97a4b3, #7a848e, #5e656b, #45484a);
+}
+.style-text-ch{
+    margin-right: 10px;
+}
+.leftStyle{
+    width: 50%;
+}
+.rightStyle{
+    width: 50%;
+}
+.boxColorText,.boxBackgrColor{
+    display: none;
+    flex-wrap: wrap;
+    width: 180px;
+    margin: 45px;
+}
+.box{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.box.red{
+    background-color: red;
+}
+.box.blue{
+    background-color: blue;
+}
+.box.green{
+    background-color: greenyellow;
+}
+.box.grey{
+    background-color: grey;
+}
+.box.yellow{
+    background-color: yellow;
+}
+.box.deeppink{
+    background-color: deeppink;
+}
+.box.white{
+    background-color: white;
+}
+.box.purple{
+    background-color: purple;
+}
+.box.darkblue{
+    background-color: darkblue;
+}
+.second-container{
+    width: 900px;
+    min-height: 250px;
+    margin: 30px auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    display: none;
+}
+.chooseTbLt{
+   padding: 30px;
+}
+h2{
+  margin-bottom: 15px;
+}
+h3{
+    margin: 15px 30px;
+}
+span{
+    margin-right: 15px;
+}
+.table{
+    height: 335px;
+    display: none;
+}
+.chooseRadioBtn{
+    margin-right: 5px;
+}
+.editWord{
+    margin-left: 30px;
+    color: dimgray;
+    font-size: 18px;
+}
+.border{
+    margin-top: 10px;
+}
+.countTr, .countTd, .widthTd, .heightTd{
+    height: 35px;
+    width: 75%;
+    margin: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+.countTr,.countTd{
+    margin-left: 40px;
+}
+.widthTd{
+    margin-left: 20px;
+}
+.heightTd{
+    margin-left: 15px;
+}
+.borderWidth ,.borderType,.colorBorder{
+    height: 35px;
+    width: 85px;
+    padding-left: 5px;
+    border-radius: 5px;
+    color: dimgray;
+}
+.borderWidth{
+    margin-left: -4px;
+}
+.borderType,.colorBorder{
+    margin-left: 40px;
+}
+#createTable , #createList{
+    margin: 10px 30px;
+    border: none;
+    background-color: darkolivegreen;
+    color: whitesmoke;
+    border-radius: 5px;
+    width: 95px;
+    height: 35px;
+    cursor: pointer;
+}
+.editcolsel{
+    color: dimgray;
+    width: 75%;
+    height: 35px;
+    border-radius: 5px;
+}
+.list{
+    height: 170px;
+    display: none;
+}
+.countLi{
+    width: 75%;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    margin-left: 41px;
+}
+ul{
+    margin: 15px;
+}
+
+
+
+

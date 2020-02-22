@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Final-JS-12</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="up-content">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="buttons">
+            <button id="edit-btn">Edit</button>
+            <button id="style-btn">Style</button>
+        </div>
+        <div class="bottom-content">
+            <div class="block-textarea">
+                <textarea value="" name="" id="textarea" cols="30" rows="10"></textarea><br>
+                <div class="buttons-edit-bottom">
+                    <button id="add-btn">add</button>
+                    <button id="save-btn">save</button>
+                </div>
+
+            </div>
+            <div class="block-style">
+                <div class="leftStyle">
+                    <h4>Font size:</h4>
+                    <form name="fontsize-buttons">
+                        <label class="edit-radio">
+                            <input class="radiobtn" type="radio" name="radio-btn" value="12px">12px
+                        </label>
+                        <label class="edit-radio">
+                            <input class="radiobtn" type="radio" name="radio-btn" value="14px"> 14px
+                        </label>
+                        <label class="edit-radio">
+                            <input class="radiobtn" type="radio" name="radio-btn" checked value="16px">16px
+                        </label>
+                        <label class="edit-radio">
+                            <input class="radiobtn" type="radio" name="radio-btn" value="18px">18px
+                        </label>
+                        <label class="edit-radio"><input class="radiobtn" type="radio" name="radio-btn"
+                                value="20px">20px
+                        </label>
+                    </form>
+                    <h4>Font family:</h4>
+                    <form name="select-fontfamily">
+                        <select class="select-fml" name="selectf">
+                            <option disabled="" selected="" value="">Choose option</option>
+                            <option value="cursive">cursive</option>
+                            <option value="fantasy">fantasy</option>
+                            <option value="monospase">monospase</option>
+                            <option value="sans-serif">sans-serif</option>
+                        </select>
+                    </form>
+                    <h4>Colors :</h4>
+                    <button id="btn-color-text">Color of Text</button>
+                    <button id="btn-background-color">Background color</button>
+                    <h4>Style</h4>
+                    <form name="checkBox">
+                        <label class="style-text-ch"><input type="checkbox" name="styleweight" value="bold">Bold
+                            text</label>
+                        <label class="style-text-ch"><input type="checkbox" name="stylefont" value="italic">Cursive
+                            text</label>
+                    </form>
+                </div>
+                <div class="rightStyle">
+                    <div class="boxColorText">
+                        <div class="box text red"></div>
+                        <div class="box text blue"></div>
+                        <div class="box text green"></div>
+                        <div class="box text grey"></div>
+                        <div class="box text yellow"></div>
+                        <div class="box text deeppink"></div>
+                        <div class="box text white"></div>
+                        <div class="box text purple"></div>
+                        <div class="box text darkblue"></div>
+                    </div>
+
+                    <div class="boxBackgrColor">
+                        <div class="box bg red"></div>
+                        <div class="box bg blue"></div>
+                        <div class="box bg green"></div>
+                        <div class="box bg grey"></div>
+                        <div class="box bg yellow"></div>
+                        <div class="box bg deeppink"></div>
+                        <div class="box bg white"></div>
+                        <div class="box bg purple"></div>
+                        <div class="box bg darkblue"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="second-container">
+        <div class="chooseTbLt">
+            <h2>Choose what do you want</h2>
+            <form name="chooseForm">
+                <label>
+                    <input class="chooseRadioBtn" type="radio" name="chooseTableOrList" value="table">
+                    <span>table</span>
+                </label>
+                <label>
+                    <input class="chooseRadioBtn" type="radio" name="chooseTableOrList" value="list">
+                    <span>list</span>
+                </label>
+            </form>
+
+        </div>
+
+        <div class="table">
+            <form name="tr">
+                <span class="editWord">Count TR:</span>
+                <input type="text" class="countTr" name="countTR" placeholder="Count TR:">
+            </form>
+
+            <form name="td">
+                <span class="editWord">Count TD:</span>
+                <input type="text" class="countTd" name="countTD" placeholder="Count TD:">
+            </form>
+            <h3>Add style to your table:</h3>
+
+            <form name="widthTD">
+                <span class="editWord">Width of TD:</span>
+                <input type="text" name="widthOfTd" class="widthTd" placeholder="Width of TD:">
+            </form>
+            <form name="heightTD">
+                <span class="editWord">Height of TD:</span>
+                <input type="text" name="heightOfTd" class="heightTd" placeholder="Height of TD:">
+            </form>
+            <div class="border">
+                <span class="editWord">Width of border:</span>
+                <input class="borderWidth" type="text" name="borderWidth" placeholder="Width:">
+                <span class="editWord">Type of border:</span>
+                <select name="borderType" class="borderType">
+                    <option value="solid">solid</option>
+                    <option value="dashed">dashed</option>
+                    <option value="double">double</option>
+                </select>
+                <span class="editWord">Color of border:</span>
+                <select name="colorBorder" class="colorBorder">
+                    <option value="black">black</option>
+                    <option value="red">red</option>
+                    <option value="blue">blue</option>
+                    <option value="green">green</option>
+                </select>
+            </div>
+            <button id="createTable">Create table</button>
+        </div>
+        <div class="list">
+            <form name="countLi">
+                <span class="editWord">Count Li:</span>
+                <input type="text" class="countLi" name="countLi" placeholder="Count Li:">
+            </form>
+
+            <form name="typeOfMarks">
+                <span class="editWord">Type of Marks:</span>
+                <select name="selectTypeMarks" class="editcolsel">
+                    <option value="circle">circle</option>
+                    <option value="disc">disc</option>
+                    <option value="square">square</option>
+                </select>
+            </form>
+            <button id="createList">Create List</button>
+        </div>
+
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
